@@ -2,8 +2,6 @@
 
 ## Overview
 
-This project is a beginner-friendly cybersecurity script written in Python.
-
 The program monitors failed login attempts and generates an alert when suspicious activity is detected. This simulates a basic security monitoring system used by SOC analysts and cloud security teams.
 
 ---
@@ -26,15 +24,6 @@ The program monitors failed login attempts and generates an alert when suspiciou
 
 ---
 
-## File Structure
-
-```text
-.
-├── login_alert.py
-└── README.md
-```
-
----
 
 ## Python Code
 
