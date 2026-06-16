@@ -62,7 +62,7 @@ if country != "India":
 
 ## How to Run
 
-```bash
+
 python3 security_monitor.py
 ```
 
