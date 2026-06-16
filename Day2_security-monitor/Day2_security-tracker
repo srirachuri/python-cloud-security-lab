@@ -1,0 +1,157 @@
+# Security Tracker Python
+
+## Overview
+
+Security Tracker Python is a beginner-friendly cybersecurity project that monitors user login activity and identifies suspicious behaviour based on failed login attempts and administrator access.
+
+The script generates a security report and alerts security teams when abnormal activity is detected.
+
+This project demonstrates core SOC (Security Operations Centre) concepts using Python.
+
+---
+
+## Features
+
+- User login monitoring
+- Failed login tracking
+- Admin access verification
+- Suspicious activity detection
+- Security report generation
+- Multiple IP address monitoring
+
+---
+
+## Technologies Used
+
+- Python 3
+- Ubuntu Linux
+- Virtual Environment (venv)
+- Nano Text Editor
+
+---
+
+## Source Code Summary
+
+The script:
+
+1. Accepts user login information
+2. Tracks failed login attempts
+3. Displays monitored IP addresses
+4. Checks administrative access
+5. Generates security alerts when suspicious behaviour is detected
+
+---
+
+## How It Works
+
+### Inputs
+
+- Username
+- Failed Login Attempts
+
+### Security Checks
+
+| Check | Condition |
+|---------|-----------|
+| Suspicious Activity Alert | Failed logins > 5 |
+| Admin Access Monitoring | Admin status enabled |
+| IP Monitoring | Displays monitored IP list |
+
+---
+
+## Running the Program
+
+```
+python3 security_tracker.py
+```
+
+---
+
+## Sample Execution
+
+```
+Enter username: Sri Gayathri
+Enter Failed Logins: 8
+
+---SECURITY REPORT---
+
+username: Sri Gayathri
+failed_logins: 8
+Admin Access: True
+
+192.168.1.10
+10.0.0.8
+172.16.5.4
+192.168.100.25
+
+WARNING: Suspicious Activity Detected!
+```
+
+---
+
+## Example Security Alert
+
+When login attempts exceed the threshold:
+
+```
+WARNING: Suspicious Activity Detected!
+```
+
+This simulates a brute-force attack detection mechanism commonly used in enterprise environments.
+
+---
+
+## Skills Demonstrated
+
+- Python Variables
+- Lists
+- User Input Handling
+- Conditional Statements
+- Security Monitoring
+- Threat Detection Logic
+- SOC Fundamentals
+- Linux Command Line
+
+---
+
+## Cybersecurity Relevance
+
+This project demonstrates security monitoring concepts used in:
+
+- Security Operations Centres (SOC)
+- User Activity Monitoring
+- Brute Force Detection
+- Security Event Analysis
+- Access Control Monitoring
+- Incident Response
+
+Monitoring login behaviour helps identify unauthorised access attempts before they become security incidents.
+
+---
+
+
+## Learning Outcomes
+
+Through this project, I practised:
+
+- Python programming fundamentals
+- Security monitoring concepts
+- Threat detection techniques
+- Login activity analysis
+- Linux administration basics
+
+---
+
+## Author
+
+Sri Gayathri
+
+Aspiring Cloud Security Engineer
+
+### Current Learning Path
+
+- Python for Cybersecurity
+- Linux Administration
+- Networking Fundamentals
+- AWS Cloud Security
+- SOC Operations
