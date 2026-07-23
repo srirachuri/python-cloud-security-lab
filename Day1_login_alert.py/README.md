@@ -94,7 +94,7 @@ This project introduces a basic concept used in:
 
 Many enterprise systems generate alerts when multiple login failures occur within a short period of time.
 
----
+--- 
 
 ## Learning Outcomes
 
