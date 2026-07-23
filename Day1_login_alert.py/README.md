@@ -1,4 +1,4 @@
-# Day 1 – Login Alert System 
+# Day 1 – Login Alert System
 
 ## Overview
 
@@ -27,7 +27,7 @@ The program monitors failed login attempts and generates an alert when suspiciou
 
 ## Python Code
 
-```python
+```
 username = input("Enter Username ")
 failed_logins = int(input("Enter failed login attempts: "))
 
@@ -43,7 +43,7 @@ else:
 
 Run the script:
 
-```bash
+```
 python3 login_alert.py
 ```
 
@@ -53,7 +53,7 @@ python3 login_alert.py
 
 ### Normal Activity
 
-```text
+```
 Enter Username Sri Gayathri
 Enter failed login attempts: 4
 
@@ -62,7 +62,7 @@ SAFE: Normal activity for Sri Gayathri
 
 ### Suspicious Activity
 
-```text
+```
 Enter Username admin
 Enter failed login attempts: 8
 
