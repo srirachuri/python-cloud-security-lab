@@ -1,5 +1,4 @@
 # 🛡️ Day 1 – Brute Force Login Alert
-
 ## 📌 Project Overview
 
 This Python script detects suspicious login activity based on the number of failed login attempts.
