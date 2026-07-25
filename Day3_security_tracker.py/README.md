@@ -1,88 +1,142 @@
-# Day 3 – Security Tracker
+# Day 3: Security Tracker
 
-## Project Overview
+## 📌 Objective
 
-This Python project simulates a basic security monitoring system. It collects login information, generates a security report, displays a list of IP addresses, and detects suspicious login activity based on the number of failed login attempts.
+Build a Python-based Security Tracker that generates a simple security report by collecting user login information, displaying network details, and identifying suspicious login activity based on failed login attempts.
 
-This project introduces simple security reporting and demonstrates how Python can be used for basic cybersecurity monitoring.
-
----
-
-## Features
-
-- Accepts username input
-- Accepts failed login attempts
-- Displays a security report
-- Shows admin access status
-- Displays monitored IP addresses
-- Detects suspicious login activity
+This project introduces basic security reporting concepts commonly used in cybersecurity and cloud security environments.
 
 ---
 
-## Technologies Used
+## 🛠 Technologies Used
 
 - Python 3
-- Ubuntu
+- Ubuntu Linux
 - Oracle VirtualBox
+- Nano Text Editor
+- Linux Terminal
+- Python Virtual Environment (venv)
 
 ---
 
-## Program Logic
+## 📚 Concepts Learned
 
-1. Enter the username.
-2. Enter the number of failed login attempts.
-3. Display a security report.
-4. Display monitored IP addresses.
-5. If failed login attempts are **5 or more**, display a warning.
-6. Otherwise, display that the activity is normal.
+- Variables
+- User Input (`input()`)
+- Integer Conversion (`int()`)
+- Conditional Statements (`if`, `elif`, `else`)
+- Boolean Values
+- Lists
+- List Traversal (`for` loop)
+- Security Report Generation
+- Basic Security Monitoring
 
 ---
 
-## Sample Output
+## ⚡ Commands Used
+
+### Activate Virtual Environment
 
 ```
-Enter username: Sri Gayathri
-Enter Failed Logins: 8
+source venv/bin/activate
+```
 
----SECURITY REPORT---
+### Create/Edit Python Script
 
-Username: Sri Gayathri
-Failed Logins: 8
-Admin Access: True
+```
+nano security_tracker.py
+```
 
-192.168.1.10
-10.0.0.8
-172.16.5.4
-192.168.100.25
+### Run the Program
 
-WARNING: Suspicious Activity Detected!
+```
+python3 security_tracker.py
 ```
 
 ---
 
-## Learning Outcomes
+## ⚡ Program Features
 
-- User input with `input()`
-- Integer conversion using `int()`
-- Variables and formatted output
-- Conditional statements (`if` / `else`)
-- Working with lists
-- Printing structured security reports
-- Building a simple cybersecurity monitoring script
+The Security Tracker performs the following tasks:
 
----
-
-## Future Improvements
-
-- Validate IP addresses automatically
-- Read IPs from a log file
-- Save reports to a text file
-- Add timestamps to each report
-- Detect repeated login attempts from the same IP
-- Export reports in CSV format
+- Accepts a username.
+- Records failed login attempts.
+- Displays administrator access status.
+- Prints a list of monitored IP addresses.
+- Detects suspicious login behaviour.
+- Generates a simple security report.
 
 ---
 
-## Author
+## 🧪 What I Practised
+
+- Activated a Python virtual environment.
+- Created a Python security monitoring script.
+- Used variables and Boolean values.
+- Stored IP addresses inside a list.
+- Displayed list items using a `for` loop.
+- Generated a formatted security report.
+- Detected suspicious login activity using conditional statements.
+- Executed Python programs from the Linux terminal.
+
+---
+
+## 📸 Screenshots
+
+### 1. Security Tracker Script
+
+The screenshot demonstrates:
+
+- Creating the `security_tracker.py` program.
+- Implementing security report logic.
+- Using variables, lists, Boolean values, and conditional statements.
+
+### 2. Running the Program
+
+The screenshot shows:
+
+- Activating the Python virtual environment.
+- Executing the Security Tracker.
+- Entering login details.
+- Displaying the security report.
+- Listing monitored IP addresses.
+- Detecting suspicious login activity.
+
+---
+
+## 🔒 Security Notes
+
+- Simulates a simple security monitoring system.
+- Demonstrates authentication event tracking.
+- Displays monitored network IP addresses.
+- Uses conditional logic to identify suspicious login attempts.
+- Introduces concepts used in Security Operations Centres (SOC) and Cloud Security monitoring.
+
+---
+
+## 🎯 Skills Practised
+
+- Python Programming
+- Linux Command Line
+- Virtual Environments
+- Variables and Data Types
+- Lists and Loops
+- Conditional Statements
+- Security Monitoring
+- Basic Cybersecurity Automation
+
+---
+
+## ✅ Outcome
+
+Successfully developed a Security Tracker that:
+
+- Collects user login information.
+- Generates a simple security report.
+- Displays administrator status.
+- Lists monitored IP addresses.
+- Detects suspicious login activity using Python.
+
+This project strengthens Python programming fundamentals while introducing practical cybersecurity concepts used in Cloud Engineering, Cloud Support, DevOps, SOC Operations, and Cloud Security careers.
 
 **Sri Gayathri**
