@@ -1,95 +1,146 @@
-# Day 2 – Brute Force Detector
+# Day 2: Brute Force Detector
 
-## Project Overview
+## 📌 Objective
+Build an enhanced Python-based Brute Force Detector that classifies login attempts into different security levels based on the number of failed login attempts.
 
-This Python project simulates a simple brute-force attack detection system. It monitors the number of failed login attempts and classifies the activity into different security levels.
-
-This project demonstrates how conditional statements can be used to identify suspicious login behaviour in cybersecurity monitoring.
-
----
-
-## Features
-
-- Accepts username input
-- Accepts failed login attempts
-- Detects suspicious login activity
-- Displays three security levels:
-  - SAFE
-  - WARNING
-  - CRITICAL ALERT
+This project introduces multiple conditional statements to simulate a simple authentication monitoring system used in cybersecurity environments.
 
 ---
 
-## Technologies Used
+## 🛠 Technologies Used
 
 - Python 3
-- Ubuntu
+- Ubuntu Linux
 - Oracle VirtualBox
+- Nano Text Editor
+- Linux Terminal
+- Python Virtual Environment (venv)
 
 ---
 
-## Program Logic
+## 📚 Concepts Learned
 
-| Failed Login Attempts | Status |
-|-----------------------|--------|
-| Less than 5 | SAFE |
-| 5 to 9 | WARNING |
-| 10 or more | CRITICAL ALERT |
-
----
-
-## Sample Output
-
-### SAFE
-
-```
-Enter the username: Sri Gayathri
-Enter the failed login attempts: 3
-
-SAFE: Normal activity for Sri Gayathri
-```
-
-### WARNING
-
-```
-Enter the username: Sri Gayathri
-Enter the failed login attempts: 9
-
-WARNING: Suspicious login activity for Sri Gayathri
-```
-
-### CRITICAL ALERT
-
-```
-Enter the username: Admin
-Enter the failed login attempts: 12
-
-CRITICAL ALERT! Possible brute force attack detected on Admin
-```
+- Variables
+- User Input (`input()`)
+- Integer Conversion (`int()`)
+- Conditional Statements (`if`, `elif`, `else`)
+- Comparison Operators
+- Multiple Decision Making
+- Python Virtual Environment
+- Basic Security Monitoring
 
 ---
 
-## Learning Outcomes
+## ⚡ Code Used
 
-- User input using `input()`
-- Integer conversion using `int()`
-- Conditional statements (`if`, `elif`, `else`)
-- Comparing numerical values
-- Building a simple cybersecurity detection system
-- Running Python programs in Ubuntu Terminal
+### Activate Virtual Environment
+
+```
+source venv/bin/activate
+```
+
+### Create/Edit Python Script
+
+```
+nano login_alert.py
+```
+
+### Run the Program
+
+```
+python3 login_alert.py
+```
+
+### Program Logic
+
+```
+username = input("Enter the username: ")
+failed_logins = int(input("Enter the failed login attempts: "))
+
+if failed_logins >= 10:
+    print("CRITICAL ALERT! Possible brute force attack detected on", username)
+
+elif failed_logins >= 5:
+    print("WARNING: Suspicious login activity for", username)
+
+else:
+    print("SAFE: Normal activity for", username)
+```
+
+### Security Levels
+
+| Failed Attempts | Status |
+|----------------:|--------|
+| 0 – 4 | ✅ Safe |
+| 5 – 9 | ⚠️ Warning |
+| 10+ | 🚨 Critical Alert |
 
 ---
 
-## Future Improvements
+## 🧪 What I Practised
 
-- Log suspicious login attempts to a file
-- Add date and time stamps
-- Count repeated alerts
-- Send email notifications
-- Read login data from log files
+- Activated a Python virtual environment.
+- Edited Python scripts using Nano.
+- Used multiple conditional statements.
+- Classified login attempts into different security levels.
+- Executed Python programs from the Linux terminal.
+- Simulated basic brute-force attack detection logic.
 
 ---
 
-## Author
+## 📸 Screenshots
+
+### 1. Python Brute Force Detector Script
+
+The screenshot demonstrates:
+
+- Writing the Python program using Nano Editor.
+- Implementing multiple security conditions.
+- Using `if`, `elif`, and `else` statements.
+
+### 2. Running the Program
+
+The screenshot shows:
+
+- Activating the Python virtual environment.
+- Running the Python script.
+- Entering a username.
+- Testing failed login attempts.
+- Displaying the appropriate security warning.
+
+---
+
+## 🔒 Security Notes
+
+- Simulates authentication monitoring.
+- Detects suspicious login behaviour.
+- Identifies potential brute-force attacks.
+- Demonstrates basic security automation using Python.
+- Introduces security alert classifications used in real-world monitoring systems.
+
+---
+
+## 🎯 Skills Practised
+
+- Python Programming
+- Linux Command Line
+- Virtual Environments
+- Conditional Logic
+- Security Automation Basics
+- Authentication Monitoring
+- Problem Solving
+
+---
+
+## ✅ Outcome
+
+Successfully developed a Brute Force Detector that:
+
+- Accepts user input.
+- Evaluates failed login attempts.
+- Classifies login activity into Safe, Warning, or Critical levels.
+- Demonstrates how Python can automate basic cybersecurity tasks.
+
+This project strengthens Python programming skills while introducing practical security concepts applicable to Cloud Engineering, Cloud Support, DevOps, and Cloud Security careers.
 
 **Sri Gayathri**
