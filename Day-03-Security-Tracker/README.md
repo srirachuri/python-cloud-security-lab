@@ -142,4 +142,5 @@ This project strengthens Python programming fundamentals while introducing pract
 ---
 
 Author: Sri Gayathri Rachuri
+
 Project: Python for Cloud Security – Day 3
