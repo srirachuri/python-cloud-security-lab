@@ -138,3 +138,7 @@ Successfully developed a Security Tracker that:
 - Detects suspicious login activity using Python.
 
 This project strengthens Python programming fundamentals while introducing practical cybersecurity concepts used in Cloud Engineering, Cloud Support, DevOps, SOC Operations, and Cloud Security careers.
+
+
+Author: Sri Gayathri Rachuri
+Project: Python for Cloud Security – Day 3
