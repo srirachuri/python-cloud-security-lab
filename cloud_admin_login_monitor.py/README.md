@@ -1,12 +1,12 @@
 # Day 5 – Cloud Admin Login Monitor
 
-## Project Overview
+## Overview
 
-The Cloud Admin Login Monitor is a beginner-friendly Python project designed to simulate basic cloud account security monitoring.
+The Cloud Admin Login Monitor is a beginner-friendly Python project that simulates basic cloud account security monitoring.
 
 The program analyses user-provided login information, checks failed login attempts, identifies potentially suspicious activity, and detects privileged administrator accounts.
 
-This project demonstrates how Python conditional statements can be used to implement basic security monitoring logic.
+This project shows how Python conditional statements can implement basic security monitoring logic.
 
 ## Technologies Used
 
