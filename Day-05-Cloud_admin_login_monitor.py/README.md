@@ -36,7 +36,7 @@ This project shows how Python conditional statements can implement basic securit
 
 The program also checks whether the account is an administrator or a standard user.
 
-## Project Structure
+## Structure
 
 ```
 Day-05-Cloud-Admin-Login-Monitor/
