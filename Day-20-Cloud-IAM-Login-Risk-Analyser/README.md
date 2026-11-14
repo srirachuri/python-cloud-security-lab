@@ -114,7 +114,7 @@ Based on the assigned risk level, the program recommends security actions.
 **CRITICAL Risk**
 - Lock the account.
 - Investigate login activity.
-- Reset user password.
+- Reset the user's password.
 - Review CloudTrail/Audit logs.
 
 **WARNING Risk**
@@ -187,3 +187,9 @@ Successfully practised Python JSON handling, cloud IAM login analysis, suspiciou
 **Completed – Day 20 of the Python Cloud Security Learning Roadmap.**
 
 Next: Continue Python for Cloud Security with more practical security automation exercises.
+
+---
+
+**Author:** Sri Gayathri Rachuri
+
+**Project:** Python for Cloud Security – Day 20
