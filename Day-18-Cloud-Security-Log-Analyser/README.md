@@ -33,7 +33,7 @@ Day-18-Cloud-Security-Log-Analyser/
 │
 ├── README.md
 ├── auth.log
-├── cloud_log_analyzer.py
+├── cloud_log_analyser.py
 ├── security_report.txt
 └── screenshots/
 ```
@@ -155,3 +155,11 @@ I practised Python-based security log analysis, authentication event detection, 
 Completed – Day 18 of the Python Cloud Security Learning Roadmap.
 
 **Next:** Day 19 – Advanced Python for Cloud Security.
+
+
+---
+
+**Author:** Sri Gayathri Rachuri
+
+**Project:** Python for Cloud Security – Day 18
+
