@@ -138,3 +138,11 @@ I completed Day 17 of the Python Cloud Security learning roadmap.
 I practised reading authentication logs, processing security events, counting failed login attempts, generating security reports, and handling file-related errors.
 
 **Next Step:** Continue to Day 18 of the Python Cloud Security learning roadmap.
+
+
+---
+
+**Author:** Sri Gayathri Rachuri
+
+**Project:** Python for Cloud Security – Day 17
+
