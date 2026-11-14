@@ -56,7 +56,7 @@ Day-19-Python-JSON-Handling-Cloud-Security/
 
 ### 1. Create a JSON File
 
-Created `user_data.json` containing sample user security information.
+I created `user_data.json` containing sample user security information.
 
 Example:
 
@@ -193,3 +193,11 @@ These concepts provide a foundation for working with cloud APIs, IAM configurati
 **Completed – Day 19 of the Python Cloud Security Learning Roadmap.**
 
 Next: Day 20 – Continue Python for Cloud Security.
+
+---
+
+**Author:** Sri Gayathri Rachuri
+
+**Project:** Python for Cloud Security – Day 18
+
+
